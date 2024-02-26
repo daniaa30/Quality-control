@@ -1,9 +1,1 @@
-conda install -c bioconda fastqc #installs fastqc on the conda environment
-conda activate fastqc #activates the fastqc environment
-mkdir fastqc_reports #creates a new directory
-fastqc */path to the fastq files.fastq -o fastqc_reports #running fastqc on multiple files
 
-multiqc
-conda install multiqc
-conda activate multiqc
-multiqc .fastqc_reports
